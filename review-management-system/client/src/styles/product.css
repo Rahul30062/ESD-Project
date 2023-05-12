@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Archivo", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+.logoH {
+  text-align: center;
+  color: rgb(12, 199, 12);
+}
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.logo img {
+  height: 50px;
+  width: 50px;
+}
+.hide {
+  width: 0;
+  display: none;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  padding: 2rem;
+}
+.elec {
+  text-align: center;
+  text-transform: uppercase;
+}
+img {
+  width: 200px;
+  height: 200px;
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+.product input {
+  border-top: 4px solid black;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+}
+
+.electronics {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border-top: 4px solid black;
+}
+.electronics .images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fashion {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.fashion .images {
+  display: flex;
+  justify-content: space-between;
+}
